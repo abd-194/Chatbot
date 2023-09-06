@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper
-os.environ['OPENAI_API_KEY'] = st.secrets["api_key"]
+os.environ['OPENAI_API_KEY'] == st.secrets["api_key"]
 # App framework
 st.title('Cedrics')
 prompt = st.text_input('Write your Query')
